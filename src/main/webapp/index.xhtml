@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>テスト</title>
+    </h:head>
+    <h:body>
+        <h1>シラクサ氏の最近の動画</h1>
+        <hr/>
+        <h:dataTable value="#{testBean.list}" var="item">
+            <h:column>#{item.id.videoId}</h:column>
+            <h:column>#{item.snippet.title}</h:column>
+            <h:column><img src="#{item.snippet.thumbnails.default.url}"/></h:column>
+        </h:dataTable>
+        <h:form>
+            <h:commandButton value="次へ" action="#{testBean.next()}"/>
+            <h:commandButton value="前へ" action="#{testBean.prev()}"/>
+        </h:form>
+    </h:body>
+</html>
+

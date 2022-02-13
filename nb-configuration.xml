@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-shared-configuration>
+    <!--
+このファイルには、NetBeans IDEのモジュールによって記述された追加の構成が含まれています。
+構成は、プロジェクトのすべてのユーザー間で共有されることを目的としています。
+したがって、バージョン管理チェックアウトの一部と見なされます。
+この構成が存在しない場合、IDEの一部の機能が制限されるか、完全に失敗することがあります。
+-->
+    <properties xmlns="http://www.netbeans.org/ns/maven-properties-data/1">
+        <!--
+IDEのさまざまな部分、特にコードのフォーマットなどに影響を与えるプロパティ。
+単一のプロパティをコピーしてpom.xmlファイルに貼り付けると、IDEがそれらを取得します。
+これにより、複数のプロジェクトで同じ設定を共有できます（たとえば、フォーマットルールに役立ちます）。
+ここで定義された値はpom.xmlファイルの値をオーバーライドしますが、現在のプロジェクトにのみ適用されます。
+-->
+        <org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_j2eeVersion>1.8-web</org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_j2eeVersion>
+        <org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_deploy_2e_server>pfv5ee8</org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_deploy_2e_server>
+        <org-netbeans-modules-maven-jaxws.rest_2e_config_2e_type>ide</org-netbeans-modules-maven-jaxws.rest_2e_config_2e_type>
+        <org-netbeans-modules-projectapi.jsf_2e_language>Facelets</org-netbeans-modules-projectapi.jsf_2e_language>
+    </properties>
+</project-shared-configuration>
